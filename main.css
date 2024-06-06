@@ -1,0 +1,155 @@
+
+   
+
+.logo{
+    display: flex;
+    width: 130px;
+    height: 40px;
+display: inline-block;
+}
+body{
+    background-color: #5870d6;
+}
+.nav-bar{
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+
+
+}
+
+ol{
+    display:flex;
+    gap: 10px;
+    padding-left: 30px;
+    width: 70%;
+  justify-content: center;
+}
+.nac{
+    color:white;
+    font-size: 20px;
+   
+    list-style: none;
+ 
+    
+}
+.search{
+    font-size: 30px;
+   
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+h1{
+    color: white;
+    margin-left: 40px;
+    font-size: 50px;
+    font-style: normal;
+}
+h3{
+    color: white;
+    margin-left: 40px;
+    width: 392px;
+    font-style: normal;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    background: #fc5656;
+    line-height: 48px;
+    font-size: 16px;
+    padding: 0 20px;
+    border-radius: 12px;
+display: flex;
+}
+h2{
+    margin-left: 20px;
+    color: white;
+}
+.web{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    
+    width: 600px;
+    animation-name:up ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+ul{
+    width: 100%;
+    display: flex;
+justify-content: space-evenly;
+}
+.typo{
+    color: gray;
+    font-size: 30px;
+    display: inline-block;
+    width: 22%;
+    gap: 10px;
+    border-bottom: 3px solid gray;
+}
+.lm{
+    width: 100%;
+    margin-left: 70px;
+    margin-top: 80px;
+    color: gray;
+    font-size: 20px;
+}
+.shop{background-color: green;padding: 20px;display: flex; }
+.shopli{
+    margin-left: 70px;
+    width: 100%;
+}
+.pass{
+    padding-left: 80px;
+    color: gray;
+}
+.v{padding: 80px;}
+.cap{
+    padding-left: 70px;
+}
+.View{  color: #fff;
+    text-decoration: none;
+    background: #fc5656;
+    line-height: 48px;
+    font-size: 16px;
+    padding: 0 20px;
+    border-radius: 12px;
+display: flex;
+margin-left: 300px;}
+@keyframes up{
+    from{top: 200px;}
+    to{top: 160px;}
+}
+.thing{
+    background-color: rgb(219, 219, 219);
+    height: 100vh;
+    padding: 20px;
+    width: 25%;
+    border: 2px rgb(219, 219, 219) ;
+    border-radius: 10px;
+    display: flex;
+    
+    
+/*     
+    position: absolute;right: 9px;
+list-style: none;display: flex;flex-direction: row;width: 6px;height: 70px;right: 50px;bottom: 1px; */
+}
+.thing > ul {
+    display: block;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+
+}
+
+.mop{width: 50%;}
+.make{
+    
+}
